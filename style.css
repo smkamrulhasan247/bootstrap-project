@@ -1,0 +1,142 @@
+:root {
+  --primaryColor: #f44335;
+  --secColor: #dfe6e9;
+  --bodyBg: #fafafa;
+}
+
+/* jakarta sans font  */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* Common Css   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bodyBg);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* 
+===============================
+Header area Style start
+===============================
+*/
+ul li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #000;
+  transition: 0.5s;
+  padding: 20px 10px;
+  border-radius: 3px;
+}
+ul.m_menu li:hover a {
+  background: var(--primaryColor);
+  color: #fff;
+}
+/* Footer menu hover */
+ul li a:hover {
+  color: var(--primaryColor);
+}
+.active {
+  color: var(--primaryColor);
+}
+
+button.top_btn {
+  background-color: var(--primaryColor);
+  color: #fff;
+  transition: 0.5s;
+}
+button.top_btn:hover {
+  background-color: var(--bodyBg);
+  color: var(--primaryColor);
+  border: 1px solid var(--primaryColor);
+}
+/* 
+===============================
+Header area Style end
+===============================
+*/
+/* Scroolbar style */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+}
+
+/* 
+===============================
+Hero area Style start
+===============================
+*/
+.large-text {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+}
+/* 
+===============================
+Hero area Style End
+===============================
+*/
+/* 
+===============================
+Collaboration area Style start
+===============================
+*/
+
+/* 
+===============================
+Collaboration area Style End
+===============================
+*/
+/* 
+===============================
+Did you know? area Style start
+===============================
+*/ /* 
+===============================
+Did you know? area Style End
+===============================
+*/
+
+/* 
+===============================
+How it works?  area Style start
+===============================
+*/
+
+/* 
+===============================
+How it works?  area Style End
+===============================
+*/
+
+/* 
+===============================
+Discover Your Skills area Style start
+===============================
+*/
+
+/* 
+===============================
+Discover Your Skills area Style End
+===============================
+*/
+
+/* 
+===============================
+..... area Style start
+===============================
+*/
+
+/* 
+===============================
+..... area Style End
+===============================
+*/
