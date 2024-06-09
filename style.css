@@ -68,7 +68,59 @@ Header area Style end
 ::-webkit-scrollbar-thumb {
   background: var(--primaryColor);
 }
+.linear {
+  position: relative;
+}
+.l_round {
+  border-left: 2px solid #ccced2;
+  height: 2655px;
+  position: absolute;
+  left: 48%;
+  top: 65%;
+}
 
+.l_round span {
+  position: absolute;
+  left: -9px;
+  color: #f44335;
+}
+
+.l_round span:nth-child(1) {
+  margin-top: -20px;
+  color: #f44335;
+}
+
+.l_round span:nth-child(2) {
+  top: 9%;
+  color: #f44335;
+}
+
+.l_round span:nth-child(3) {
+  top: 24.5%;
+
+  color: #f44335;
+}
+
+.l_round span:nth-child(4) {
+  top: 45%;
+  color: #f44335;
+}
+.l_round span:nth-child(5) {
+  top: 64%;
+  color: #f44335;
+}
+.l_round span:nth-child(6) {
+  top: 82.5%;
+  color: #f44335;
+}
+.l_round span:nth-child(7) {
+  top: 99.8%;
+  color: #f44335;
+}
+@media (max-width: 768px) { 
+  .v_line{
+  display:none;
+}
 /* 
 ===============================
 Hero area Style start
